@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <title>A legnagyobb dolgok</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png"
+    href="https://win98icons.alexmeub.com/icons/png/chart1-5.png">
+  <meta charset="utf-8">
+
+  <script>
+    var message = "";
+    function clickIE() {
+      if (document.all) {
+        (message);
+        return false;
+      }
+    }
+    function clickNS(e) {
+      if (document.layers || (document.getElementById && !document.all)) {
+        if (e.which == 2 || e.which == 3) {
+          (message);
+          return false;
+        }
+      }
+    }
+    if (document.layers) {
+      document.captureEvents(Event.MOUSEDOWN);
+      document.onmousedown = clickNS;
+    }
+    else {
+      document.onmouseup = clickNS;
+      document.oncontextmenu = clickIE;
+    }
+    document.oncontextmenu = new Function("return false")
+  </script>
+  <p>
+    <script>
+      var omitformtags = ["input", "textarea", "select"]
+      omitformtags = omitformtags.join("|")
+      function disableselect(e) {
+        if (omitformtags.indexOf(e.target.tagName.toLowerCase()) == -1)
+          return false
+      }
+      function reEnable() {
+        return true
+      }
+      if (typeof document.onselectstart != "undefined")
+        document.onselectstart = new Function("return false")
+      else {
+        document.onmousedown = disableselect
+        document.onmouseup = reEnable
+      }
+    </script>
+    <script>
+      var gaJsHost = (("https:" == RubicusFrontendIns.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script>
+      try {
+        var pageTracker = _gat._getTracker("UA-549331-28");
+        pageTracker._trackPageview();
+      }
+      catch (err) {
+
+      }
+    </script>
+  </p>
+</head>
+
+<body>
+
+  <div id="navbar">
+    <p>A legnagyobb dolgok</p>
+    <a class="active" href="">a földön</a>
+    <a href="index2.html">a világegyetemben</a>
+    <a class="others" href="index3.html">Egyéb követelmények</a>
+  </div>
+
+  <div class="sidenav">
+    <a href="#section1">Növény</a>
+    <a href="#section2">Állat</a>
+    <a href="#section3">Épület</a>
+    <a href="#section4">Jármű᲼</a>
+  </div>
+
+  <div class="content">
+
+
+
+    
+    <h3 id="section1">A legnagyobb növények</h3>
+    <h4>Hyperion, a legmagasabb fa</h4>
+    A Hyperiont 2006. szeptember 8-án fedezte fel Chris Atkins és Michael Taylor.
+    Magasságát Stephen Sillett állapította meg. Korábban a csaknem 113 méter magas
+    Sztratoszféraóriást (Stratosphere Giant) tartották a világ legmagasabb fájának.
+    A Hyperiont a park egy elhagyatott részében találták. Pontos helyét nem tárták fel
+    a nyilvánosság előtt, nehogy a sok emberi látogató megzavarja a környék ökoszisztémáját.
+    <br />
+    <img src="https://www.erdekesvilag.hu/kepek/legmagasabb-fak/hyperion.jpg" alt="Hyperion">
+    <br />
+    Magassága: 115,61 méter
+    <br />
+    Átmérő: 4,84 méter
+    <br />
+    Élőhelye: Amerikai Egyesült Államok, Kalifornia, Redwoods, Redwood Creek
+    <br />
+    Fajtája: örökzöld mamutfenyő (Sequoia sempervirens)
+
+    <h4>Titánbuzogány, a legnagyobb virág</h4>
+    Legfeljebb 24 óráig virágzik. Eredetileg a szumátrai esőerdőkben honos. A
+    világ legnagyobb virága, és a legbüdösebb. A látványos, megdöbbentő méretekkel rendelkező növény virágánál csak
+    annak bűze nagyobb. Virágja két méter széles és három méter magas, igazi rekord a botanika világában.
+    <br />
+    <img src="https://www.erdekesvilag.hu/kepek/novenyi-rekorderek/rekorder-novenyek-4.jpg" alt="Titánbuzogány">
+    <br />
+    Magassága: 3 méter
+    <br />
+    Szélessége: 2 méter
+    <br />
+    Élőhelye: szumátrai esőerdők
+    <br />
+    Fajtája: Amorphophallus titanum
+    
+
+
+
+
+    
+    <h3 id="section2">A legnagyobb állatok</h3>
+
+    <h4>Strucc, a legnagyobb testű madár</h4>
+    A vándor albatrosz hihetetlen szárnyfesztávolsága 3,5 méter, ami gigantikus a ma élő madarak között, és ezzel a ma
+    élő legnagyobb repülni képes madarává emeli. Ráadásul mindenfajta erőlködés nélkül sokáig képes a levegőben tud
+    maradni, de a madarak között nem az albatrosz a legnagyobb, hanem a strucc.
+    <br />
+    <img src="https://nlc.p3k.hu/uploads/2020/12/gettyimages-521324136.jpg" alt="Strucc">
+    <br />
+    Élőhelye: Szahara déli része, Kelet-Afrika, Namíbia és a Kalahári-sivatag
+    
+
+    <h4>Afrikai elefánt, a legnagyobb szárazföldi emlős</h4>
+    Ha a magasságot és a súlyt együttesen vesszük alapul, akkor a szárazföldi emlősök közül az afrikai elefánt az
+    aranyérmes. Az irdatlan erővel bíró állat akár 3-4 méter magasra is megnőhet, a bikák súlya 6, a nőstényeké 4 tonna
+    körül mozog. De nemcsak méretük miatt tűnnek ki a többi állat közül: ha a csordából egy tag meghal, szó szerint
+    gyászolják és virrasztanak mellette.
+    <br />
+    <img src="https://nlc.p3k.hu/uploads/2020/12/gettyimages-693964689.jpg" alt="Afrikai elefánt">
+    <br />
+    Élőhelye: Az afrikai elefánt korábban a Szaharától délre egész Afrikában elterjedt volt, manapság elterjedése
+    elsősorban a nemzeti parkokra és egyéb védett területekre korlátozódik.
+    
+
+    <h4>Kékbálna, a rekordtartó</h4>
+    A vándor albatrosz hihetetlen szárnyfesztávolsága 3,5 méter, ami gigantikus a ma élő madarak között, és ezzel a ma
+    élő legnagyobb repülni képes madarává emeli. Ráadásul mindenfajta erőlködés nélkül sokáig képes a levegőben tud
+    maradni, de a madarak között nem az albatrosz a legnagyobb, hanem a strucc.
+    <br />
+    <img src="https://nlc.p3k.hu/uploads/2020/12/gettyimages-460716909.jpg" alt="Kékbálna">
+    <br />
+    Élőhelye: Az összes óceán
+    
+
+    
+
+
+
+
+    
+    <h3 id="section3">A legnagyobb épületek</h3>
+
+    <h4>Al Maktoum repülőtér, a legnagyobb épület</h4>
+    A világ legnagyobb épülete az egyik leggazdagabb állam legnagyobb városában. Az Al Maktoum dubaii uralkodóról
+    elnevezett repülőtér 3-as terminálja 1.300.000 m²-nyi területével az egyik legforgalmasabb légikikötő. A 157
+    lifttel, 82 mozgólépcsővel és 2600 parkolóhellyel rendelkező terminál tavaly októberben épült 4.5 milliárd
+    dollárból.
+    <br />
+    <img
+      src="https://www.arabnews.com/sites/default/files/styles/n_670_395/public/main-image/2018/10/19/1343766-1305614669.jpg"
+      alt="Al Maktoum repülőtér">
+    <br />
+    Alapterülete: 1.300.000 m²
+
+    <h4>Burj Khalifa, a legmagasabb torony</h4>
+    A maga 828 méterével 2010 óta vezeti a toplistát. Az Egyesült Arab királyság korábbi elnökéről kapta nevét. 57 lift
+    és 8 mozgólépcső teszi könnyebbé a közlekedést. Hotelek, irodák és lakások találhatóak benne. 5 és fél év alatt
+    készült el.
+    <br />
+    <img src="https://richclub.hu/wp-content/uploads/2019/06/image.gif" alt="Burj Khalifa">
+    <br />
+    Magassága: 828 m
+    
+
+
+
+
+    
+    <h3 id="section4">A legnagyobb járművek</h3>
+
+    <h4>Mi-26, a legnagyobb helikopter</h4>
+    A Mi–26 (oroszul Ми-26) a Szovjetunióban katonai célra kifejlesztett személy- és teherszállító helikopter, amely
+    hadrendbe állítása óta a legnagyobb méretű és teljesítményű sorozatban gyártott forgószárnyas repülőgép. A tervezés
+    során elsődleges célként azt tűzték ki, hogy egy 13 tonna össztömegű lövészpáncélost képes legyen elszállítani,
+    illetve célként felmerült a kis-középhatótávolságú ballisztikus rakéták továbbszállítása a telepítési területeikre,
+    melyeket a korábban már említett An–22 teherszállító szállította volna a végrakodó-reptérre.
+    <br />
+    <img src="https://iparnegyed.hu/wp-content/uploads/2017/05/mi-26-300x225.jpg" alt="Mi-26">
+    <br />
+    Hossza: 40 m
+    <br />
+    Tömege: 28 t
+    
+
+    <h4>BHP vasérc-tehervonat</h4>
+    A leghosszabb és egyben legnehezebb vonat Guiness rekordját az ausztrál BHP vasércszállító szerelvénye tartja, amely
+    2001. június 21-én Newman és Port Hedland között közlekedett. 682 vagonból állt, teljes hossza 7.353 km, össztömege
+    99 732 tonna volt.
+    <br />
+    <img src="https://iparnegyed.hu/wp-content/uploads/2017/05/longesttrain-300x200.jpg" alt="BHP vasérc-tehervonat">
+    <br />
+    Hossza: 7353 m
+    <br />
+    Tömege: 732 t
+    
+
+    <h4>941 (Typhoon), a legnagyobb tengeralattjáró</h4>
+    A 941-es tervszámú tengeralattjáró szovjet gyártású ballisztikusrakéta-hordozó atommeghajtású tengeralattjáró. A
+    típus a világ legnagyobb tengeralattjárója, hossza meghaladja a 170 métert, szélessége a 22 métert, vízkiszorítása
+    merüléskor a 48 000 tonnát. Az osztályból hat példányt építettek, 2009 elején már csak egy példány állt aktív
+    szolgálatban.
+    <br />
+    <img src="https://iparnegyed.hu/wp-content/uploads/2017/05/Typhoon-sub-300x201.jpg" alt="941 Typhoon">
+    <br />
+    Hossza: 175 m
+    <br />
+    Tömege: ? t
+    
+
+    <h4>Antonov An-225 Mriya, a legnagyobb repülőgép</h4>
+    Az 1980-as évek végén, a szovjet űrprogram keretében épített Antonov An–225 hat sugárhajtóművel felszerelt gép 640
+    tonnás felszállótömege abszolút rekordnak számít. A gép maximálisan 250 t hasznos teher szállítására képes. Az
+    eredeti tervek szerint ez a gép szállította volna a szovjetek amerikai mintára tervezett űrsiklóját, a Burant. Erre
+    viszont összesen egyszer került sor, egy tesztrepülés alkalmával, az űrsiklóprogram bukása után pedig a hatalmas
+    gépet nem igazán tudták rendesen kihasználni, így ma már mindösszesen csak egy üzemel belőle.
+    <br />
+    <img src="https://iparnegyed.hu/wp-content/uploads/2017/05/an-225-300x185.jpg" alt="Antonov An 225 Mriya">
+    <br />
+    Hossza: ? m
+    <br />
+    Tömege: 640 t
+    
+
+    <h4>Mont, a legnagyobb hajó</h4>
+    A világ valaha épített legnagyobb hajója, a Mont (korábban Seawise Giant, Happy Giant, Jahre Viking, Knock Nevis,
+    Oppama) 1979-ben készült el. A monstrum méretei miatt képtelen áthaladni a La Manche-csatornán, a Szuezi-csatornán,
+    vagy a Panama-csatornán, ezért csak Amerika és a közel kelet partjaihoz szállított. A szupertankernek több
+    tulajdonosa is volt, ennek köszönhető számos átkeresztelése. Legutolsó tulajdonosa az Olsen Tankers Pte. Ltd. volt,
+    azonban a megvásárlás után nem sokkal az Olsen Tankers úgy döntött, hogy túl költséges a hajót tovább használni,
+    ezért átalakította egy úszó tárolóvá, amit a Perzsa-öbölben Al Shaheen olajmező partjainál kötöttek ki. Az ekkori
+    nevén Knock Nevisről körülbelül 5 évnyi olajtárolás után, úgy döntött az Olsen Tankers, hogy már tárolónak sem éri
+    meg fenttartani, ezért szétbontják. Az óriást utolsó útjára elnevezték Mont-nak. 2010 januárjában 18.000 ember
+    elkezdte a körülbelül 1 évig tartó bontást.
+    <br />
+    <img src="https://iparnegyed.hu/wp-content/uploads/2017/05/knock-nevis-300x225.jpg" alt="Mont">
+    <br />
+    Hossza: 458.45 m
+    <br />
+    Tömege: 657.019 t
+    
+
+    
+
+
+
+    <div class="footer">
+      <h2>Források:</h2>
+      <a href="https://www.erdekesvilag.hu/vilagrekorder-novenyek/" target="_blank">
+        https://www.erdekesvilag.hu/vilagrekorder-novenyek/
+      </a><br />
+      <a href="https://www.erdekesvilag.hu/a-vilag-legmagasabb-fai/" target="_blank">
+        https://www.erdekesvilag.hu/a-vilag-legmagasabb-fai/
+      </a><br />
+      <a href="https://hu.wikipedia.org/wiki/Strucc" target="_blank">
+        https://hu.wikipedia.org/wiki/Strucc
+      </a><br />
+      <a href="https://hu.wikipedia.org/wiki/Afrikai_elefánt" target="_blank">
+        https://hu.wikipedia.org/wiki/Afrikai_elefánt
+      </a><br />
+      <a href="https://hu.wikipedia.org/wiki/Kék_bálna" target="_blank">
+        https://hu.wikipedia.org/wiki/Kék_bálna
+      </a><br />
+      <a href="https://blikkruzs.blikk.hu/galeria/top-10-a-legnagyobb-epuletek-a-vilagon/fjkm2fg" target="_blank">
+        https://blikkruzs.blikk.hu/galeria/top-10-a-legnagyobb-epuletek-a-vilagon/fjkm2fg
+      </a><br />
+      <a href="https://richclub.hu/a-vilag-5-legmagasabb-epulete/" target="_blank">
+        https://richclub.hu/a-vilag-5-legmagasabb-epulete/
+      </a><br />
+      <a href="https://iparnegyed.hu/a-vilag-legnagyobb-jarmuvei/" target="_blank">
+        https://iparnegyed.hu/a-vilag-legnagyobb-jarmuvei/
+      </a><br />
+      <a href="https://hu.wikipedia.org/wiki/941-es_tervszámú_tengeralattjáró" target="_blank">
+        https://hu.wikipedia.org/wiki/941-es_tervszámú_tengeralattjáró
+      </a><br />
+      <a href="https://en.wikipedia.org/wiki/Antonov_An-225_Mriya" target="_blank">
+        https://en.wikipedia.org/wiki/Antonov_An-225_Mriya
+      </a><br />
+      <h2>Kód források:</h2>
+      <a href="https://www.w3schools.com" target="_blank">
+        https://www.w3schools.com
+      </a><br />
+      <a href="http://www.buxmasters.hu/2013/02/jobb-klikk-tilto-gatlo-lopasbiztos.html" target="_blank">
+        http://www.buxmasters.hu/2013/02/jobb-klikk-tilto-gatlo-lopasbiztos.html
+      </a>
+    </div>
+  </div>
+
+  <script>
+    window.onscroll = function () { myFunction() };
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
+</body>
+
+</html>
