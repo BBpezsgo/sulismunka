@@ -1,0 +1,205 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  
+  #navbar {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #a1a1a1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #navbar p {
+    float: left;
+    display: block;
+    color: #494949;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    cursor: default;
+  }
+  
+  #navbar a:hover {
+    background-color: rgb(255, 233, 172);
+    color: black;
+  }
+  
+  #navbar a:active {
+    background-color: rgb(255, 216, 109);
+    color: black;
+  }
+  
+  #navbar a.active {
+    background-color: rgb(255, 216, 109);
+    color: black;
+  }
+  
+  #navbar a.others {
+    color: #a1a1a1;
+    float: right;
+  }
+  
+  #navbar a.othersactive {
+    background-color: rgb(255, 216, 109);
+    color: black;
+    float: right;
+  }
+  
+  .content {
+    padding-top: 16px;
+    margin-left: 180px;
+    font-size: 20px;
+    padding-left: 10px;
+    cursor: default;
+  }
+  
+  .content img {
+      width: 50%;
+      height: auto;
+  }
+  
+  .content h3 {
+    background-color: #ffedd2;
+    margin: 30px;
+    padding: 20px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky p {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    cursor: default;
+    margin-left: 160px;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+  .sidenav {
+    width: 160px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    background: rgb(255, 255, 255);
+    overflow-x: hidden;
+    padding: 8px 0;
+    border-right: 1px black solid;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    font-size: 25px;
+    display: block;
+    float: left;
+    color: rgb(92, 92, 92);
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .sidenav a:hover {
+    color: rgb(255, 233, 172);
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #ffffff; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #666666; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #949494; 
+  }
+
+  p.solid {
+      border-style: solid;
+      border-color: #949494;
+}
+
+.footer {
+    padding: 10px;
+    text-align: center;
+    background: #ffffff;
+  }
+
+  .footer a {
+    color: rgb(145, 145, 145);
+  }
+
+  .footer a:hover {
+    color: grey;
+  }
+
+  .footer a:active {
+    color: #d3d3d3;
+  }
+
+  table {
+    border: 1px solid gray;
+  }
+  th, td {
+    border: 1px solid gray;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+  }
+  .accordion {
+    background-color: #616060;
+    color: rgb(179, 179, 179);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: rgb(151, 151, 151); 
+    color: rgb(75, 75, 75);
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: rgb(189, 189, 189);
+    overflow: hidden;
+  }
